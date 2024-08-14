@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Login - DocPortal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DocPortal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctor-registration.html">Doctor Registration</a></li>
+                <li><a href="doctor-login.html">Doctor Login</a></li>
+                <li><a href="patient-booking.html">Book an Appointment</a></li>
+                <li><a href="patient-login.html">Patient Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="patient-login">
+        <h2>Patient Login</h2>
+        <form id="patient-login-form">
+            <label for="pat-login-email">Email:</label>
+            <input type="email" id="pat-login-email" name="pat-login-email" required>
+
+            <label for="pat-login-password">Password:</label>
+            <input type="password" id="pat-login-password" name="pat-login-password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DocPortal. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
